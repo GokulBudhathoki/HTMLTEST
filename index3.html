@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Document</title>
+    </head>
+    <body>
+        <h3>Store Hours</h3>
+        <table border="1" style="background-color: black;">
+            <tr style="background-color: lightblue;">
+                <th width="100">Sunday</th>
+                <th width="100">Monday</th>
+                <th width="100">Tuesday</th>
+                <th width="100">Wednesday</th>
+                <th width="100">Thursday</th>
+                <th width="100">Friday</th>
+                <th width="100">Saturday</th>
+            </tr>
+            <tr align="center" style="background-color: aliceblue;">
+                <td>Closed</td>
+                <td>9-5</td>
+                <td>9-5</td>
+                <td>9-5</td>
+                <td>9-5</td>
+                <td>9-5</td>
+                <td>10-2</td>
+            </tr>
+        </table>
+        <br>
+        <a href="index.html"
+        target="_blank"
+        title="Click to go to my fisrt Website">
+        <button style ="font-size: 25px; background-color: grey; color: aliceblue; border-radius: 10px;">Click</button>
+        </a>
+        <br>
+        <br>
+        <button onclick="doSomething()" style="font-size: 20px; background-color: burlywood; color: brown; border-radius: 15px;"
+        title="Click to change">Change</button>
+
+        <script>
+            function doSomething(){
+                document.getElementById("transform").innerHTML = "This is nothing";
+            }
+        </script>
+        <p id="transform">This is Something</p>
+        <br>
+        
+        <!-- WE BE DOIN' FORMS -->
+
+        <form action="index.php" method="POST">
+
+            <label style="background-color: lightcoral; font-style: italic; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" for="username">username:</label>
+            <input type="text" id="username" placeholder="username" requierd><br>
+  
+            
+            <label style="background-color: lightcoral; font-style: italic; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" for="password">password</label>
+            <input type="password" id="password" placeholder="password" ><br>
+            
+            <label style="background-color: lightcoral; font-style: italic; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" for="email">email</label>
+            <input type="email" id="email" placeholder="email" ><br>
+    
+            <label style="background-color: lightcoral; font-style: italic; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" for="phone">phone</label>
+            <input type="tel" id="phone" placeholder="phone" pattern="[0-9]{4}-[0-9]{3}[0-9]{3}"><br>
+
+            <input style="background-color: aquamarine;" type="submit">
+
+
+        </form>
+    </body>
+
+</html>
