@@ -1,15 +1,55 @@
 body{
-    background-color: bisque;
+    background-color: rgb(192, 194, 196);
 }
 h1{
-    color: hotpink;
+    margin: auto;
+    font-family:sans-serif;
+    color: rgb(88, 4, 46);
+    border: 3px solid rgb(100, 54, 36);
+    border-radius: 6px;
+    text-shadow: 3px 2px 3px rgb(40, 124, 18), -3px -2px 3px rgb(16, 148, 141);;
 }
+
 #p1{
-    color: rgb(122, 36, 36);
+    color: tomato;
+    font-family: "lucida console";
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: 3px solid rgb(119, 98, 41);
 }
 #p2{
-    color: rgb(97, 97, 5);
+    color: #447039;
+    font-family: "playfair display";
+    
 }
 #p3{
-    color: aqua;
+    color: rgba(44, 16, 43, 0.774);
+}
+#p4{
+    color: rgb(97, 42, 3);
+}
+.box{
+    border: 5px solid;
+    font-size: 5em;
+    height: 250px;
+    width: 250px;
+}
+#box1{
+    background-color: white;
+    box-shadow: 3px 2px 5px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+#box2{
+    background-color: rgb(148, 134, 134);
+    box-shadow: 3px 2px 5px;
+    margin: auto;
+}
+div{
+    border:3px solid;
+    width: 200px;
+    height: 100px;
+    overflow: auto;
 }
